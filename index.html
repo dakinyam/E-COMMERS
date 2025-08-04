@@ -1,0 +1,28 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dark E-Commerce Site</title>
+    <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+    <header>
+        <h1>My E-Commerce</h1>  
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#" onclick="toggleCart()">Cart 🛒</a>
+    </nav>
+    <main class="main-container">
+        <section class="products" id="product-list"></section>
+        <div class="cart" id="cart-container">
+        <h3>Shopping Cart</h3>
+        <ul id="cart-items"></ul>
+        <strong>Total: ₹<span id="cart-total">0</span></strong>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    </body>
+    </html>

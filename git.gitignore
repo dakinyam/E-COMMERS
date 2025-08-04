@@ -1,0 +1,5 @@
+# Ignore system folders
+AppData/
+*.log
+.vscode/
+node_modules/
